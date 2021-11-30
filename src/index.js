@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 // Find all widget divs
-const WidgetDivs = document.querySelectorAll('.reddit_widget')
+const WidgetDiv = document.querySelector('.widget')
 
-// Inject our React App into each
-WidgetDivs.forEach(Div => {
+// Inject our React App into div
   ReactDOM.render(
     <React.StrictMode>
-      <App domElement={Div} />
-    </React.StrictMode>,
-    Div
-  );
-})
+      <App domElement={WidgetDiv} />
+    </React.StrictMode>, WidgetDiv);
+
