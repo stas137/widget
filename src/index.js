@@ -8,6 +8,6 @@ const WidgetDiv = document.querySelector('.widget')
 // Inject our React App into div
   ReactDOM.render(
     <React.StrictMode>
-      <App domElement={WidgetDiv} />
+      <App />
     </React.StrictMode>, WidgetDiv);
 
