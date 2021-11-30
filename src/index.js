@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-// Find all widget divs
+// Find widget div
 const WidgetDiv = document.querySelector('.widget')
 
 // Inject our React App into div
